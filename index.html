@@ -1,0 +1,779 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+        <!-- box icon -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!-- aos -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container mutuharjo">
+            <a class="navbar-brand ml-10" href="#">
+                <img src="image/logo nav.png" class="img-nav" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Instuctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Schedules</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li>
+                        <a href=""><img src="image/bx_search.png" class="img-src" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="" class="btn btn-light mt5">Login</a>
+                    </li>
+                    <li>
+                        <a href="" class="btn btn-success mr-40">Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- home -->
+    <section class="home mt-5">
+        <div class="container">
+            <div class="row home-content">
+                <div class="col-lg-7">
+                    <div class="bg-home mt-5" data-aos="fade-up-right" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                        <h1 class="header1 ml-10">
+                            Quality <span>Education</span> <br>By Any Means <br>Necessary.
+                        </h1>
+
+                        <a href="" class="btn btn-success mt-5 ml-10">Get Started</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+
+                    <div class="home-img" data-aos="fade-down-left" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                        <img src="image/img-home.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-5" data-aos="fade-down" data-aos-duration="800"
+            data-aos-easing="ease-in-out">
+                <div class="col">
+                    <div class="card">
+                        <div class="problem-solving">
+                            <div class="icon">
+                                <img src="image/ps.png" alt="">
+                            </div>
+                            <div class="text-icon">
+                                <p class="small-text">Problem Solving</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="live-chat">
+                            <div class="icon">
+                                <img src="image/lc.png" alt="">
+                            </div>
+                            <div class="text-icon">
+                                <p class="small-text">Live Chat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="group-reading">
+                            <div class="icon">
+                                <img src="image/gr.png" alt="">
+                            </div>
+                            <div class="text-icon">
+                                <p class="small-text">Group Reading</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="courses">
+                            <div class="icon">
+                                <img src="image/1c.png" alt="">
+                            </div>
+                            <div class="text-icon">
+                                <p class="small-text">10k Courses</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="hand-act">
+                            <div class="icon">
+                                <img src="image/hoa.png" alt="">
+                            </div>
+                            <div class="text-icon">
+                                <p class="small-text">Hand-on activites</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- course -->
+    <section class="course">
+        <div class="container">
+            <div class="row mt-70">
+                <div class="col-lg-8" data-aos="fade-right" data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                    <h3 class="header2">Choose favourite course from top cartegories</h3>
+                </div>
+                <div class="col-lg-3 text-end align-self-center" data-aos="fade-left" data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                    <a href="" class="see-all">See all</a>
+                </div>
+            </div>
+            <div class="row course-content mt-5">
+
+                <div class="portofolio-container">
+                    <div class="portofolio-box" data-aos="zoom-in" data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                        <img src="image/Marketing.png" alt="">
+                        <div class="portofolio-layer">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptatem omnis odio quaerat aperiam. Fugit repudiandae ex exercitationem officiis inventore!</p>
+                        </div>
+                    </div>
+                    <div class="portofolio-box" data-aos="flip-left" data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                        <img src="image/Design.png" alt="">
+                        <div class="portofolio-layer">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptatem omnis odio quaerat aperiam. Fugit repudiandae ex exercitationem officiis inventore!</p>
+                        </div>
+                    </div>
+                    <div class="portofolio-box" data-aos="zoom-in" data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                        <img src="image/Programing.png" alt="">
+                        <div class="portofolio-layer">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptatem omnis odio quaerat aperiam. Fugit repudiandae ex exercitationem officiis inventore!</p>
+                        </div>
+                    </div>
+                    <div class="portofolio-box" data-aos="flip-left" data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                        <img src="image/Technology2.png"  alt="">
+                        <div class="portofolio-layer">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptatem omnis odio quaerat aperiam. Fugit repudiandae ex exercitationem officiis inventore!</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- <div class="col-lg-3">
+                    <img src="image/Marketing.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img src="image/Design.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img src="image/Programing.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img src="image/Technology.png" class="technology" alt="">
+                </div> -->
+            </div>
+
+            <!-- popular course -->
+            <div class="row popular-course mt-5">
+                <div class="col-lg-8" data-aos="fade-left" data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                    <h3 class="header2">Most Popular Courses</h3>
+                </div>
+                <div class="col-lg-4 text-end align-self-center" data-aos="fade-right" data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sort By
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Most Popular Courses -->
+            <div class="row content-popular mt-5">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="700"
+                data-aos-easing="ease-in-out">
+                    <div class="card">
+                        <img src="image/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-lg-9">
+                                    <h2 class="header3">Learn Marketing From Top Instuctors</h2>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <p class="rating"><img src="image/ant-design_star-outlined.png" alt=""> 4.5</p>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-3">
+                                    <p class="card-pm">6 weeks</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="card-pm"><img src="image/Vector.png" alt=""> 1.5k Students</p>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <a href="" class="price-a">
+                                        <h4 class="card-price">30.5$</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <div class="card">
+                        <img src="image/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-lg-9">
+                                    <h2 class="header3">Front-end development is not hard as you think</h2>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <p class="rating"><img src="image/ant-design_star-outlined.png" alt=""> 4.5</p>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-3">
+                                    <p class="card-pm">6 weeks</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="card-pm"><img src="image/Vector.png" alt=""> 1.5k Students</p>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <a href="" class="price-a">
+                                        <h4 class="card-price">30.5$</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="1300"
+                data-aos-easing="ease-in-out">
+                    <div class="card">
+                        <img src="image/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-lg-9">
+                                    <h2 class="header3">Everrything you need to know in UX</h2>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <p class="rating"><img src="image/ant-design_star-outlined.png" alt=""> 4.5</p>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-3">
+                                    <p class="card-pm">6 weeks</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="card-pm"><img src="image/Vector.png" alt=""> 1.5k Students</p>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <a href="" class="price-a">
+                                        <h4 class="card-price">30.5$</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-4" data-aos="flip-down" data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                    <div class="card">
+                        <img src="image/4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-lg-9">
+                                    <h2 class="header3">Learn photography with ease</h2>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <p class="rating"><img src="image/ant-design_star-outlined.png" alt=""> 4.5</p>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-3">
+                                    <p class="card-pm">6 weeks</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="card-pm"><img src="image/Vector.png" alt=""> 1.5k Students</p>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <a href="" class="price-a">
+                                        <h4 class="card-price">30.5$</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4" data-aos="flip-down" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <div class="card">
+                        <img src="image/5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-lg-9">
+                                    <h2 class="header3">Be a pro in data analysis</h2>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <p class="rating"><img src="image/ant-design_star-outlined.png" alt=""> 4.5</p>
+                                </div>
+                            </div>
+                            <div class="row mt-50">
+                                <div class="col-lg-3">
+                                    <p class="card-pm">6 weeks</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="card-pm"><img src="image/Vector.png" alt=""> 1.5k Students</p>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <a href="" class="price-a">
+                                        <h4 class="card-price">30.5$</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-4" data-aos="flip-down" data-aos-duration="1200"
+                data-aos-easing="ease-in-out">
+                    <div class="card">
+                        <img src="image/6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-lg-9">
+                                    <h2 class="header3">Ethical Harking is not hard as you think</h2>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <p class="rating"><img src="image/ant-design_star-outlined.png" alt=""> 4.5</p>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-3">
+                                    <p class="card-pm">6 weeks</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="card-pm"><img src="image/Vector.png" alt=""> 1.5k Students</p>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <a href="" class="price-a">
+                                        <h4 class="card-price">30.5$</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- New Skill -->
+            <div class="row mt-70">
+                <h3 class="header2">Learn a new skill in two hours</h3>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4" data-aos="flip-down" data-aos-duration="800"
+                data-aos-easing="ease-in-out">
+                    <div class="card">
+                        <img src="image/7.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-lg-9">
+                                    <h2 class="header3">All you need in Business Strategy</h2>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <p class="rating"><img src="image/ant-design_star-outlined.png" alt=""> 4.5</p>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-3">
+                                    <p class="card-pm">6 weeks</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="card-pm"><img src="image/Vector.png" alt=""> 1.5k Students</p>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <a href="" class="price-a">
+                                        <h4 class="card-price">30.5$</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="flip-down" data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
+                    <div class="card">
+                        <img src="image/8.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-lg-9">
+                                    <h2 class="header3">The amazing hack in Figma prototyping</h2>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <p class="rating"><img src="image/ant-design_star-outlined.png" alt=""> 4.5</p>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-3">
+                                    <p class="card-pm">6 weeks</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="card-pm"><img src="image/Vector.png" alt=""> 1.5k Students</p>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <a href="" class="price-a">
+                                        <h4 class="card-price">30.5$</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="flip-down" data-aos-duration="1200"
+                data-aos-easing="ease-in-out">
+                    <div class="card">
+                        <img src="image/9.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-lg-9">
+                                    <h2 class="header3">Introduction to basic game developement</h2>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <p class="rating"><img src="image/ant-design_star-outlined.png" alt=""> 4.5</p>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <div class="col-lg-3">
+                                    <p class="card-pm">6 weeks</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p class="card-pm"><img src="image/Vector.png" alt=""> 1.5k Students</p>
+                                </div>
+                                <div class="col-lg-3 text-end">
+                                    <a href="" class="price-a">
+                                        <h4 class="card-price">30.5$</h4>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- profil -->
+    <section class="profil mt-70">
+        <div class="container">
+            <div class="row">
+                <h3 class="header2">We Bring The Good Education To Life</h3>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4" data-aos="zoom-in-up" data-aos-duration="1500"
+                data-aos-easing="ease-in-out">
+                    <img src="image/profil.png" class="img-profil" alt="">
+                </div>
+                <div class="col-lg-8">
+                    <div class="col-lg-12" data-aos="fade-left" data-aos-duration="1000"
+                    data-aos-easing="ease-in-out">
+                        <h2 class="profil-h">Let Your Education Do <br> The Walking</h2>
+                    </div>
+                    <div class="col-lg-12 mt-4" data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-out">
+                        <div class="small-p">
+                            <div class="img-p">
+                                <img src="image/p-1.png" alt="">
+                            </div>
+                            <div class="text-p">
+                                <p class="profil-p">Free E-book, Videos and kits</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt-2" data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-out">
+                        <div class="small-p">
+                            <div class="img-p">
+                                <img src="image/p-2.png" alt="">
+                            </div>
+                            <div class="text-p">
+                                <p class="profil-p">Learn at your own pace</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt-2" data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-out">
+                        <div class="small-p">
+                            <div class="img-p">
+                                <img src="image/p-3.png" alt="">
+                            </div>
+                            <div class="text-p">
+                                <p class="profil-p">Collaborate with different learners around the globe</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mt-2" data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-out">
+                        <div class="small-p">
+                            <div class="img-p">
+                                <img src="image/p-4.png" alt="">
+                            </div>
+                            <div class="text-p">
+                                <p class="profil-p">Top instructors around the globe</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section review -->
+    <section class="review">
+        <div class="container review-c">
+            <div class="row mt-70 text-center">
+                <h3 class="header2">Reviews</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 mt-5" data-aos="fade-left" data-aos-duration="800" data-aos-easing="ease-in-out">
+                    <h2 class="text-r">
+                        What Our <br> <span class="span-gb">Students</span> Say <br> About Us
+                    </h2>
+                </div>
+                <div class="col-lg-4 mt-70" data-aos="fade-left" data-aos-duration="1100" data-aos-easing="ease-in-out">
+                    <div class="profil-review">
+
+                        <img src="image/r-1.png" alt="" class="img-review">
+
+                        <div class="name-pr mt-1">
+                            <h4 class="review-pr">Mohh Jumah</h4>
+                            <h4 class="prof">Senior Developer</h4>
+                        </div>
+                    </div>
+                    <p class="desk-p mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ac
+                        blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non, quis enim velit
+                        tempus. Interdum duis imperdiet venenatis </p>
+                </div>
+                <div class="col-lg-3 mt-70" data-aos="fade-left" data-aos-duration="1400" data-aos-easing="ease-in-out">
+                    <div class="profil-review">
+
+                        <img src="image/r-2.png" alt="" class="img-review">
+
+                        <div class="name-pr mt-1">
+                            <h4 class="review-pr">John Mark</h4>
+                            <h4 class="prof">Data Analyst</h4>
+                        </div>
+                    </div>
+                    <p class="desk-p mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur ac blandit nam massa massa elementum mollis lectus. Sit ultricies nisl amet non</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section instructors -->
+    <section class="instructors">
+        <div class="container">
+            <div class="row">
+                <h3 class="header2 ml-10">Meet our instructors</h3>
+            </div>
+            <div class="row mt-5">
+                <div class="col" data-aos="flip-right" data-aos-duration="800" data-aos-easing="ease-in-out">
+                    <div class="profil-ins">
+                            <img src="image/pi1.png" alt="">    
+
+                        <h4 class="review-pr mt-3">John Mark</h4>
+                        <h4 class="prof">
+                            Senior Developer
+                        </h4>
+                        <p class="desk-p mt-4">
+                            “Education will be for you what you want it to be” 
+                        </p>
+                    </div>
+                </div>
+                <div class="col" data-aos="flip-right" data-aos-duration="1100" data-aos-easing="ease-in-out">
+                    <div class="profil-ins">
+                            <img src="image/pi2.png" alt="">    
+
+                        <h4 class="review-pr mt-3">Lora Shrof</h4>
+                        <h4 class="prof">
+                            Marketing Lead
+                        </h4>
+                        <p class="desk-p mt-4">
+                            “Knowledge has to be improved, challenged, and increased constantly, or it vanishes” 
+                        </p>
+                    </div>
+                </div>
+                <div class="col" data-aos="flip-right" data-aos-duration="1400" data-aos-easing="ease-in-out">
+                    <div class="profil-ins">
+                            <img src="image/pi3.png" alt="">    
+
+                        <h4 class="review-pr mt-3">Zeng Chin</h4>
+                        <h4 class="prof">
+                            Data Analist at Meta
+                        </h4>
+                        <p class="desk-p mt-4">
+                            “To know that we know what we know, and to know that we do not know what we do not know, that is true knowledge” 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section footer -->
+    <section class="footer mt-4">
+        <div class="container-footer">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="img-logo-f">
+                        <img src="image/Logo Web-2 2.png" alt="">
+                    </div>
+                    <p class="foot-p">We are not here to sell you products, we sell value through our expertise.</p>
+                     
+                    <div class="social-media ml-3">
+                        <a href=""><i class='bx bxl-facebook'></i></a>
+                        <a href=""><i class='bx bxl-twitter'></i></a>
+                        <a href=""><i class='bx bxl-instagram'></i></a>
+                        <a href=""><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="nav-foot-1">
+                        <ul class="navbar-nav">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Training</a></li>
+                            <li><a href="">Resources</a></li>
+                            <li><a href="">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-1">
+                    <div class="nav-foot-2">
+                        <ul class="navbar-nav">
+                            <li><a href="">SME</a></li>
+                            <li><a href="">Solution</a></li>
+                            <li><a href="">Reviews</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="nav-foot">
+                        <ul class="navbar-nav">
+                            <li><a href="">Contact Us</a></li>
+                            <li><a href="">Place A Call</a></li>
+                            <li><a href="">Email</a></li>
+                            <li><a href="">Resources</a></li>
+                            <li><a href="">Wischool@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="nav-foot">
+                        <ul class="navbar-nav">
+                            <li><a href="">Job Opening</a></li>
+                            <li><a href="">News</a></li>
+                            <li><a href="">Research</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="nav-foot">
+                        <ul class="navbar-nav">
+                            <li><a href="">Us Privacy Policy</a></li>
+                            <li><a href="">Terms Of Use</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3 class="header-foot">
+                        Subscribe to get latest updates
+                    </h3>
+                    <div class="mb-3 mt-3 foot-form">
+                        <input type="email" class="form-control" placeholder="Your Email Address">
+                        <button type="submit" class="btn-submit">Subscribe</button>
+                      </div>
+                      
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+</body>
+
+</html>
