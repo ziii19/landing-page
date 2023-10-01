@@ -56,7 +56,8 @@ span {
     margin-left: 1.3rem;
     transition: .1s ease;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     text-decoration: underline;
     font-size: large;
 }
@@ -74,8 +75,8 @@ span {
 .home-content {
     width: 1140px;
     height: 470px;
-    background: rgb(225,255,238);
-    background: linear-gradient(13deg, rgba(225,255,238,1) 0%, rgba(255,255,255,1) 54%);
+    background: rgb(225, 255, 238);
+    background: linear-gradient(13deg, rgba(225, 255, 238, 1) 0%, rgba(255, 255, 255, 1) 54%);
     border-radius: 50px;
 }
 
@@ -106,6 +107,7 @@ span {
     margin-right: 1rem;
     border: none;
 }
+
 .btn-light:hover {
     background: var(--white);
     border: none;
@@ -125,6 +127,7 @@ span {
 .ml-10 {
     margin-left: 2rem;
 }
+
 .ml-3 {
     margin-left: 4rem;
 }
@@ -213,7 +216,7 @@ span {
     height: 40px;
 }
 
-.small-text{
+.small-text {
     color: #000;
     font-family: Poppins;
     font-size: 16px;
@@ -289,7 +292,7 @@ span {
 .technology {
     width: 230px;
     /* height: 387px; */
-    /* height: auto; */
+/* height: auto; */
 /* } */
 
 .dropdown-toggle::after {
@@ -304,7 +307,7 @@ span {
 }
 
 .rating {
-    align-self: start!important;  
+    align-self: start !important;
 }
 
 .card-pm {
@@ -325,7 +328,7 @@ span {
 }
 
 .price-a {
- text-decoration: none;
+    text-decoration: none;
 }
 
 .img-profil {
@@ -347,9 +350,11 @@ span {
     font-weight: 500;
     text-align: start;
 }
+
 .text-p {
     margin-top: 15px;
 }
+
 .small-p {
     display: flex;
     gap: 24px;
@@ -396,6 +401,7 @@ span {
     font-weight: 700;
     line-height: normal;
 }
+
 .prof {
     color: #09B451;
     font-size: 18px;
@@ -409,19 +415,19 @@ span {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;  
+    line-height: 30px;
 }
 
 .profil-ins {
-        padding: 2rem 1.7rem 4rem;
-        width: 350px;
-        height: 350px;
-        text-align: center;
-        border-radius: 6px;
+    padding: 2rem 1.7rem 4rem;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border-radius: 6px;
 
     /* Shadow2 */
     box-shadow: 0px 0px 20px 0px rgba(203, 203, 203, 0.25);
-    
+
 }
 
 .profil-ins img {
@@ -472,7 +478,7 @@ span {
     background: transparent;
     color: #0AC75ACC;
     box-shadow: 0 0 1rem #0AC75ACC;
-}   
+}
 
 .nav-foot-1 {
     display: inline-flex;
@@ -483,7 +489,7 @@ span {
     margin-left: 5rem;
 }
 
-.nav-foot-1 .navbar-nav li a{
+.nav-foot-1 .navbar-nav li a {
     text-decoration: none;
     color: #FFF;
     font-size: 14px;
@@ -493,10 +499,12 @@ span {
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+
 .nav-foot-1 .navbar-nav li a:hover {
     color: #0D6EFD;
     text-decoration: underline;
 }
+
 .nav-foot {
     display: inline-flex;
     flex-direction: column;
@@ -505,7 +513,7 @@ span {
     margin-top: 5rem;
 }
 
-.nav-foot .navbar-nav li a{
+.nav-foot .navbar-nav li a {
     text-decoration: none;
     color: #FFF;
     font-size: 14px;
@@ -515,6 +523,7 @@ span {
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+
 .nav-foot .navbar-nav li a:hover {
     color: #0D6EFD;
     text-decoration: underline;
@@ -528,7 +537,8 @@ span {
     margin-top: 5rem;
     /* margin-left: 5rem; */
 }
-.nav-foot-2 .navbar-nav li a{
+
+.nav-foot-2 .navbar-nav li a {
     text-decoration: none;
     color: #FFF;
     font-size: 14px;
@@ -538,6 +548,7 @@ span {
     letter-spacing: 2px;
     text-transform: capitalize;
 }
+
 .nav-foot-2 .navbar-nav li a:hover {
     color: #0D6EFD;
     text-decoration: underline;
