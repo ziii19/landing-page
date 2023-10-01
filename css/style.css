@@ -73,8 +73,8 @@ span {
 }
 
 .home-content {
-    width: 1140px;
-    height: 470px;
+    width: auto;
+    height: auto;
     background: rgb(225, 255, 238);
     background: linear-gradient(13deg, rgba(225, 255, 238, 1) 0%, rgba(255, 255, 255, 1) 54%);
     border-radius: 50px;
@@ -117,7 +117,6 @@ span {
 .home-img img {
     height: 460px;
     margin-left: -150px;
-    /* margin-right: 400px; */
 }
 
 .mr-40 {
@@ -437,7 +436,7 @@ span {
 
 .footer {
     width: auto;
-    height: 410px;
+    height: auto;
     background: #000;
 }
 
