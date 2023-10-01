@@ -429,7 +429,7 @@ span {
     height: 100px;
 }
 
-.container-footer {
+.footer {
     width: auto;
     height: 410px;
     background: #000;
@@ -553,7 +553,6 @@ span {
 }
 
 .foot-form {
-    margin-left: 30%;
     width: 500px;
     height: 3rem;
     display: flex;
