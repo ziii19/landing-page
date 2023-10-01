@@ -282,18 +282,6 @@ span {
     transform: translateY(0);
 }
 
-/* /////////////////////////////// */
-
-/* .img-fluid {
-    width: 249px;
-    height: auto;
-}
-.technology {
-    width: 230px;
-    /* height: 387px; */
-/* height: auto; */
-/* } */
-
 .dropdown-toggle::after {
     margin-top: 10px;
     float: left;
@@ -361,8 +349,8 @@ span {
 }
 
 .review-c {
-    width: 1240px;
-    height: 454px;
+    width: auto;
+    height: auto;
 }
 
 .text-r {
@@ -563,8 +551,8 @@ span {
 }
 
 .foot-form {
-    width: 500px;
-    height: 3rem;
+    max-width: 500px;
+    max-height: 3rem;
     display: flex;
 }
 
@@ -585,8 +573,8 @@ span {
 }
 
 .btn-submit {
-    width: 126px;
-    height: 3rem;
+    max-width: 126px;
+    max-height: 3rem;
     color: #FFF;
     font-size: 15px;
     font-style: normal;
